@@ -1,0 +1,79 @@
+body{
+    background-color: gray;
+color:black;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 16em;
+margin: 0%;
+line-height: 1.6em;}
+#main-header{
+    background-color: coral;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+#navbar{
+    background-color: #333;
+}
+#navbar ul{
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+padding-right: 15px;
+}
+#showcase{
+     background-image: url('thakur.jpg'); 
+     background-position: center;
+    min-height: 240px;
+    color: darkred
+    ;
+
+    line-height: 1.6em;
+}
+#showcase h1{
+    line-height: 1.9em;
+    padding-top: 30px;
+    font-size: 30px;
+}
+#main{
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+  
+}
+#sidebar{
+    width: 30%;
+    float: right;
+    box-sizing: border-box; 
+    color: #fff;
+    background-color:#333;
+    padding: 10px;
+
+}
+#main-footer{
+    background-color:#333;
+    color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+@media(max-width:600){
+    body{
+        background-color: red;
+    }
+}
+ #main{
+    width: 100%;
+    float:none;
+}#sidebar{
+    width:100%;
+    float:none;
+
+} 
